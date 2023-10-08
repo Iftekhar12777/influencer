@@ -72,5 +72,18 @@ header{
 
   .main-img{
     position: relative;
-    bottom: 450px;
+    bottom: 70px;
+  }
+
+  .sponsor{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(192, 204, 218, 0.5);
+    border-bottom:1px solid rgba(192, 204, 218, 0.4);
+    padding: 20px 0;
+    background-color: rgba(94, 99, 102, .01);
+    width: 1000px;
+    margin: 0 auto;
   }
