@@ -72,7 +72,7 @@ header{
 
   .main-img{
     position: relative;
-    bottom: 70px;
+    bottom: 450px;
   }
 
   .sponsor{
@@ -86,4 +86,95 @@ header{
     background-color: rgba(94, 99, 102, .01);
     width: 1000px;
     margin: 0 auto;
+    margin-top: -300px;
+  }
+
+
+
+
+  /* responsive media section (small devices) */
+
+  @media screen and (max-width:576px){
+
+    body{
+      padding: 0 20px;
+    }
+
+.nav-bar{
+  flex-direction: column;
+}
+
+.title{
+  text-align: center;
+}
+
+.menu-items{
+  gap: 10px;
+  text-align: center;
+}
+
+.main-container{
+  flex-direction: column;
+}
+.main-content{
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+}
+.main-content h1{
+  font-size: 2.8em;
+  text-align: center;
+  width: 350px;
+  }
+
+  .main-content p{
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  button{
+    width: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+    
+  .circle-camera{
+    /* width: 350px; */
+    /* height: 30%; */
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .circle{
+    width: 100%;
+  }
+ 
+  .main-img img{
+    width: 100%;
+    margin-top: 110px;
+ margin-bottom: 0px;   
+}
+
+.main-img{
+  margin-bottom: -100px;
+ }
+
+ .sponsor{
+  display: grid;
+  grid-template-columns:50px 50px 50px 50px;
+  align-items: center;
+
+  gap: 40px;
+  width:100%;
+  /* padding: 10px; */
+  
+}
+
+.sponsor img{
+  width: 100%;
+
+}
   }
